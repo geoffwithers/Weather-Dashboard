@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main class="content">
+        <section id="search-box" class="search-box">
+            <h2>Search for a City:</h2>
+            <input type="text" id="input" placeholder="San Diego">
+            <button id="search-btn" class="search-btn">Search</button>
+            <hr class="hr">
+            <button class="btn">City</button>
+            <button class="btn">City</button>
+            <button class="btn">City</button>
+            <button class="btn">City</button>
+            <button class="btn">City</button>
+            <button class="btn">City</button>
+            <button class="btn">City</button>
+            <button class="btn">City</button>
+
+        </section>
+
+        <section id="weather-container" class="weather-container">
+            <div id="current-container">
+                <h2>Atlanta (5/22/2023) 🌦</h2>
+                    <p>Temp: 76.62 F</p>
+                    <p>Wind: 8.43 MPH</p>
+                    <p>Humidity: 44 %</p>
+            </div>
+
+            <h2 id="forecast-header">5-Day Forecast:</h2>
+        
+            <div id="forecast-container" class="forecast-container">
+                
+                <div>
+                    <h3>5/24/2023</h3>
+                    <span role="img" aria-label="weather emoji">🌞</span>
+                    <p>Temp: 63.55 F</p>
+                    <p>Wind: 3.94 MPH</p>
+                    <p>Humidity: 63 %</p>
+                </div>
+                <div>
+                    <h3>5/25/2023</h3>
+                    <span role="img" aria-label="weather emoji">🌩</span>
+                    <p>Temp: 66.62 F</p>
+                    <p>Wind: 3.91 MPH</p>
+                    <p>Humidity: 64 %</p>
+                </div>
+                <div>
+                    <h3>5/26/2023</h3>
+                    <span role="img" aria-label="weather emoji">❄</span>
+                    <p>Temp: 67.71 F</p>
+                    <p>Wind: 3.27 MPH</p>
+                    <p>Humidity: 64 %</p>
+                </div>
+                <div>
+                    <h3>5/27/2023</h3>
+                    <span role="img" aria-label="weather emoji">🌞</span>
+                    <p>Temp: 67.1 F</p>
+                    <p>Wind: 4.65 MPH</p>
+                    <p>Humidity: 72 %</p>
+                </div>
+                <div>
+                    <h3>5/28/2023</h3>
+                    <span role="img" aria-label="weather emoji">🌧</span>
+                    <p>Temp: 70.57 F</p>
+                    <p>Wind: 4.23 MPH</p>
+                    <p>Humidity: 62 %</p>
+                </div>
+            </div>
+            </section>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js" integrity="sha512-hcV6DX35BKgiTiWYrJgPbu3FxS6CsCjKgmrsPRpUPkXWbvPiKxvSVSdhWX0yXcPctOI2FJ4WP6N1zH+17B/sAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
